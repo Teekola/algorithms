@@ -5,7 +5,7 @@ def swap(A: list, i: int, j: int) -> list:
     return A            # Return resulting array
 
 
-def partition(A: list, p: int, r: int) -> tuple(list, int):
+def partition(A: list, p: int, r: int) -> tuple[list, int]:
 
     x = A[r]            # Make the last item the pivot
     i = p-1             # Counter i increases when we find an item smaller than the pivot
