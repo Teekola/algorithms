@@ -1,6 +1,4 @@
-def insertionSort(array: list):
-    # Copy the array to prevent unwanted side-effects
-    A = array.copy()
+def insertionSort(A: list) -> list:
 
     # i steps from 2nd index to last index
     for i in range(1, len(A)):
