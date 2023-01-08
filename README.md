@@ -1,1 +1,1 @@
-## Implementations of algorithms that I have learned
+## Implementations of algorithms
